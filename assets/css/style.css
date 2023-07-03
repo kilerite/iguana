@@ -1,0 +1,131 @@
+/*ETIQUETAS*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #000000;
+}
+
+/*CLASES*/
+.bg-header {
+  width: 100%;
+}
+
+.page-header {
+  width: 100%;
+  background: #000000;
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-size: 50px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-weight: 500;
+}
+
+/* Desc contenido */
+.desc-section {
+  width: 75%;
+  padding: 5rem 0;
+  margin: auto; /* Acomodamos automaticamente el margin */
+}
+
+.texto,
+.iguana-1 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.texto {
+  width: 50%;
+  color: #fff;
+  font-weight: 300;
+}
+
+.texto p {
+  margin-bottom: 1rem; /*Salto de línea*/
+}
+
+.iguana-1 {
+  width: 35%;
+  margin-left: 6rem;
+}
+
+/* Iconos */
+.icons-section {
+  background: #1e1a13;
+  padding: 7rem;
+}
+
+.icons-section .titulo {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.icon-box {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  color: #fff;
+}
+
+.icon-box i {
+  font-size: 4rem;
+}
+
+.icon-box p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 1rem;
+}
+
+/* Galeria */
+.gallery {
+  background: #000000;
+  padding: 80px 0;
+  }
+
+.centering {
+  margin: 0 auto;
+  width: 75%;
+  }
+
+
+.photo-box {
+  width: 30%;
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+.photo-box img {
+  width: 100%;
+  height: 200px;
+}
+
+
+/*Footer*/
+footer {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  padding: 30px;
+  background: #1e1a13;
+}
